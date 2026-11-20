@@ -12,7 +12,7 @@ datasource db {
   provider = "postgresql"
 }
 
-model Categoria {
+model Category {
   id    Int  @id @default(autoincrement())
   nome  String
   icone String?
